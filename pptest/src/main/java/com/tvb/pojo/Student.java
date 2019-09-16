@@ -4,8 +4,10 @@ public class Student {
     private int age;
     private String name;
     private double height;
-
     private String addr;
+
+    private String hobby;
+    private double weight;
 
 
     public Student() {
