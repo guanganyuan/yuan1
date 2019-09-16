@@ -5,6 +5,7 @@ public class Stu {
     private String name;
     private int age;
     private String address;
+    private double height;
 
     public Stu() {
     }
@@ -35,6 +36,14 @@ public class Stu {
 
     public String getAddress() {
         return address;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
     }
 
     public void setAddress(String address) {
