@@ -6,6 +6,7 @@ public class Stu {
     private int age;
     private String address;
     private double height;
+    private int ok;
 
     public Stu() {
     }
